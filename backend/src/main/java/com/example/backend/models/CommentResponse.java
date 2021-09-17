@@ -15,11 +15,11 @@ import javax.validation.Valid;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class PollResponse {
+public class CommentResponse {
+
     @Valid
-    private ICommonResponse iCommonResponse;
+    private ICommonResponse iCommentResponse;
 
     @Valid
     private ResultCode resultCode;
 }
-
